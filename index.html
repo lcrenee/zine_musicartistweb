@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/udo2nph.css">
+    <title>Home</title>
+    <style>
+        body{
+            background-color: rgb(242, 242, 242);
+        }
+
+        .link{
+        font-family: Arial, Helvetica, sans-serif;
+        font-variation-settings: "opsz" 16;
+        font-size: 20px;
+        color: rgb(248, 206, 213);
+        text-decoration: none;
+        letter-spacing: 0.03em;
+        margin-left: 100px;
+        }
+
+        .links{
+        float: right;
+        justify-content: space-between;
+        }
+
+        #home:hover{
+            color: rgb(238, 190, 198);
+        }
+
+        #home:active{
+            color: rgb(249, 231, 234);
+        }
+
+        #about:hover{
+            color: rgb(238, 190, 198);
+        }
+
+        #about:active{
+            color: rgb(249, 231, 234);
+        }
+
+        #music:hover{
+            color: rgb(238, 190, 198);
+        }
+
+        #music:active{
+            color: rgb(249, 231, 234);
+        }
+
+        h1{
+        font-family: "medusa", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 100px;
+        }
+
+        img {
+            width: 300px;
+        }
+
+        .image-container{
+            grid-template-columns: repeat(3, 1fr);
+            display: grid;
+        }
+
+    </style>
+</head>
+<body>
+<div id="homepage">
+
+    <div class="links">
+        <a href="index.html" class="link" id="home">Home</a>
+        <a href="page2.html" class="link" id="about">About</a>
+        <a href="page3.html" class="link" id="music">Music</a>
+    </div>
+    <section class="home">
+    <h1>Rosé</h1>
+    <div class="image-container">
+        <img src="1.jpg" alt="1">
+        <img src="2.jpg" alt="2">
+        <img src="3.jpg" alt="3">
+        <img src="4.jpg" alt="4">
+        <img src="5.jpg" alt="5">
+        <img src="6.jpg" alt="6">
+    </div>
+    </div>
+</body>
+</html>
